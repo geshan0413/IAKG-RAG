@@ -1,0 +1,5702 @@
+{
+  "system": "w/o IRIR",
+  "test_set": "v4",
+  "summary": {
+    "total": 300,
+    "correct": 267,
+    "accuracy": 0.89
+  },
+  "details": [
+    {
+      "id": "TC_001",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/6.3.1.20",
+        "FSS Code/9.2.1.7",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/10.5.6",
+        "FSS Code/10.2.4.1.4",
+        "SOLAS II-2/7.9",
+        "FSS Code/9.2.1.2",
+        "FSS Code/9.2.5.1.6",
+        "FSS Code/9.2.5.1.5",
+        "FSS Code/9.2.4.1",
+        "FSS Code/5.2.1.3.2",
+        "FSS Code/9.2.5.1.1",
+        "FSS Code/15.2.2.4.5.1",
+        "FSS Code/8.2.2.2",
+        "FSS Code/9.2.5.1.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.5.1.5",
+        "SOLAS II-2/7.4.2",
+        "FSS Code/10.2.4.1.4",
+        "FSS Code/9.2.5.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10798
+    },
+    {
+      "id": "TC_002",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.2"
+      ]
+    },
+    {
+      "id": "TC_003",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/10.2.4.2.2"
+      ]
+    },
+    {
+      "id": "TC_004",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.3"
+      ]
+    },
+    {
+      "id": "TC_005",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.1.3"
+      ]
+    },
+    {
+      "id": "TC_006",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/3.2.1.2",
+        "FSS Code/3.2.1.2.1",
+        "FSS Code/3.2.1.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10672
+    },
+    {
+      "id": "TC_007",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.2.2.3.2.2",
+        "SOLAS II-2/9.2.4.2.2",
+        "SOLAS II-2/9.2.4.2.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.3.3.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8000
+    },
+    {
+      "id": "TC_008",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.1.1.5.2"
+      ]
+    },
+    {
+      "id": "TC_009",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.4.1.5",
+        "FSS Code/5.2.2.1",
+        "FSS Code/5.2.2.1.3",
+        "FSS Code/5.2.2.1.5",
+        "FSS Code/5.2.1.1",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/5.2.2.1.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8999
+    },
+    {
+      "id": "TC_010",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/10.2.1.3"
+      ]
+    },
+    {
+      "id": "TC_011",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.3.3",
+        "SOLAS II-2/10.5.2.2",
+        "FSS Code/5.2.1.1.3",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/18.5.7",
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/10.3.3.1",
+        "SOLAS II-2/10.3.2.1",
+        "SOLAS II-2/10.2.3.2.1",
+        "SOLAS II-2/10.10.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.3.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10090
+    },
+    {
+      "id": "TC_012",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.3.3"
+      ]
+    },
+    {
+      "id": "TC_013",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/1.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/9.4.1.2.2",
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/4.5.1.4.1",
+        "SOLAS II-2/7.8.2",
+        "SOLAS II-2/9.4.1.1.6",
+        "FSS Code/14.2.3.2.2.3",
+        "SOLAS II-2/18.5.6",
+        "SOLAS II-2/9",
+        "SOLAS II-2/1.3",
+        "SOLAS II-2/4.5.3.4.3",
+        "FSS Code/14.2.3.2",
+        "FSS Code/14.2.3.2.3",
+        "SOLAS II-2/1.1",
+        "SOLAS II-2/18.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/14.2.3.2"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 14550
+    },
+    {
+      "id": "TC_014",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/14.2.2",
+        "SOLAS II-2/10.6.3.3",
+        "SOLAS II-2/4.5.1",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/4.5.1.3",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/18.5.7",
+        "SOLAS II-2/10.3.2",
+        "SOLAS II-2/10.5.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/20",
+        "SOLAS II-2/20.6.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11659
+    },
+    {
+      "id": "TC_015",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.5.6"
+      ]
+    },
+    {
+      "id": "TC_016",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/2.2.1",
+        "SOLAS II-2/4.5.3.2",
+        "FSS Code/15.2.2.3.2",
+        "FSS Code/15.2.2.3.1",
+        "FSS Code/15.2.2.2",
+        "FSS Code/15.2.2.2.6",
+        "SOLAS II-2/4.5.8",
+        "SOLAS II-2/4.5.5.1",
+        "FSS Code/15.2.3.1",
+        "SOLAS II-2/4.5.7.2",
+        "SOLAS II-2/9.2.3.1",
+        "SOLAS II-2/4.5.3.2.2",
+        "FSS Code/15.2.2.5",
+        "FSS Code/15.2.2.3.2.3",
+        "FSS Code/15.2.2.3.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.3.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11263
+    },
+    {
+      "id": "TC_017",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.2.3.4.5"
+      ]
+    },
+    {
+      "id": "TC_018",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.1.7",
+        "FSS Code/10.2.1.4"
+      ]
+    },
+    {
+      "id": "TC_019",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.1",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/2.1.1",
+        "SOLAS II-2/13.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9267
+    },
+    {
+      "id": "TC_020",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.10.2.5",
+        "FSS Code/3.2.1.3",
+        "SOLAS II-2/10.10.4",
+        "SOLAS II-2/10.10.2.6",
+        "FSS Code/3.2.2.1",
+        "SOLAS II-2/10.10.2.2",
+        "SOLAS II-2/13.3.4.1",
+        "SOLAS II-2/10.10.1.2",
+        "SOLAS II-2/13.3.4.4",
+        "SOLAS II-2/13.3.4",
+        "SOLAS II-2/15.2.2",
+        "SOLAS II-2/13.4.3",
+        "SOLAS II-2/10.10.2",
+        "SOLAS II-2/10.10.1",
+        "SOLAS II-2/19.3.6.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7743
+    },
+    {
+      "id": "TC_021",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.4.1",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/20.6.2.1",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/10.5.5",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/10.3.2.1",
+        "SOLAS II-2/10.7.3.1.1",
+        "FSS Code/14.2.3.3",
+        "SOLAS II-2/10.2.3.3.4",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.5.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 15049
+    },
+    {
+      "id": "TC_022",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.3.1.2"
+      ]
+    },
+    {
+      "id": "TC_023",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.4.2.1",
+        "SOLAS II-2/13.5",
+        "SOLAS II-2/13.4.2.1.2",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/9",
+        "SOLAS II-2/13.4.1.5",
+        "SOLAS II-2/13.3.3.2",
+        "SOLAS II-2/13.3.3.3",
+        "SOLAS II-2/13.7.1.2",
+        "SOLAS II-2/13.3.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.3.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13653
+    },
+    {
+      "id": "TC_024",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/15.2.3.4"
+      ]
+    },
+    {
+      "id": "TC_025",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/10.2.1.4"
+      ]
+    },
+    {
+      "id": "TC_026",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/2.2.1",
+        "FSS Code/2.2.2",
+        "SOLAS II-2/10.2.1.6",
+        "SOLAS II-2/10.2.1.7.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/2.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10342
+    },
+    {
+      "id": "TC_027",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/18.6"
+      ]
+    },
+    {
+      "id": "TC_028",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/9.7.3.1.1",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.3.3",
+        "SOLAS II-2/9.7.3.2",
+        "SOLAS II-2/9.7.3.1.2",
+        "SOLAS II-2/20.3.1.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13136
+    },
+    {
+      "id": "TC_029",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.4.1",
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/5.2.2.1.2",
+        "SOLAS II-2/10.4.1.5",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.5.6",
+        "FSS Code/5.2.2.4.3",
+        "SOLAS II-2/20.6.1",
+        "FSS Code/10.2.4.2",
+        "FSS Code/5.2.2.1",
+        "FSS Code/5.2.1.3",
+        "FSS Code/5.2.2.1.3",
+        "FSS Code/5.2.1.3.2",
+        "FSS Code/5.2.1.1",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/5.2.1.3.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9629
+    },
+    {
+      "id": "TC_030",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.3.4"
+      ]
+    },
+    {
+      "id": "TC_031",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/13.2.1.2.2.2.1",
+        "FSS Code/13.2.3",
+        "FSS Code/13.2.4.2",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/13.3.2.1.2",
+        "FSS Code/5.2.2.4.3",
+        "FSS Code/9.2.1",
+        "FSS Code/13.3",
+        "FSS Code/13.2.1.1",
+        "SOLAS II-2/13.4.2",
+        "FSS Code/9.2.4.2.3",
+        "SOLAS II-2/10.3.3",
+        "FSS Code/13.2.5.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/13.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16866
+    },
+    {
+      "id": "TC_032",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/15.2.4.2",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/14.2.2.5",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/18.5",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/15.3.2",
+        "SOLAS II-2/9.7.2.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.3.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13389
+    },
+    {
+      "id": "TC_033",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.5.1",
+        "SOLAS II-2/4.2.2.3.5.1",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/4.2.2.3.4",
+        "SOLAS II-2/4.2.3",
+        "SOLAS II-2/10.6.3",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/4.2.2.3.3",
+        "SOLAS II-2/4.5.7.2",
+        "SOLAS II-2/4.2.3.2",
+        "SOLAS II-2/4.2.2.3.2",
+        "SOLAS II-2/10.10.3",
+        "SOLAS II-2/9.5.1",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3.5.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9589
+    },
+    {
+      "id": "TC_034",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/5.2.1.2.5"
+      ]
+    },
+    {
+      "id": "TC_035",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/7.5.5",
+        "FSS Code/10.2.1",
+        "SOLAS II-2/20.6.1.5",
+        "FSS Code/9.2.3.1",
+        "SOLAS II-2/20.6.1",
+        "FSS Code/9.2.3.1.2",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/20.6.1.2",
+        "SOLAS II-2/7.5.1",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/20.1",
+        "FSS Code/10.2.4.1",
+        "FSS Code/10.2.1.4",
+        "SOLAS II-2/19.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/19.3.3"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 12644
+    },
+    {
+      "id": "TC_036",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.2.4"
+      ]
+    },
+    {
+      "id": "TC_037",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/7.5.5",
+        "FSS Code/10.2.2.1",
+        "SOLAS II-2/8.5",
+        "FSS Code/10.1",
+        "FSS Code/10.2.1",
+        "FSS Code/9.2.3.1",
+        "FSS Code/10.2.2",
+        "FSS Code/9.2.4.2.1",
+        "FSS Code/9.2.1.2",
+        "FSS Code/10.2.1.1",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/19.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/10.2.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8910
+    },
+    {
+      "id": "TC_038",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.1.2",
+        "SOLAS II-2/13.3.2.1",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/2.1.1",
+        "SOLAS II-2/13.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10941
+    },
+    {
+      "id": "TC_039",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.3.5",
+        "SOLAS II-2/9.4.1.3.6",
+        "SOLAS II-2/9.4.1.3",
+        "SOLAS II-2/9.4.1.3.3",
+        "FSS Code/13.2.4.2",
+        "FSS Code/8.2.4.3",
+        "SOLAS II-2/9.4.1.1.5.12",
+        "SOLAS II-2/4.5.5.2",
+        "FSS Code/8.2.3.2.1",
+        "SOLAS II-2/10.6.1",
+        "FSS Code/8.2.5.2.3",
+        "FSS Code/9.2.1.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.1.3.5"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 13270
+    },
+    {
+      "id": "TC_040",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/9.7.5.1.2",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/9.7.5.1.1",
+        "SOLAS II-2/9.7.5.1",
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/9.7.7"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.5.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17769
+    },
+    {
+      "id": "TC_041",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/13.2.2.4",
+        "FSS Code/13.2.2.3",
+        "SOLAS II-2/13.7.1.2",
+        "FSS Code/13.2.1.2.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/13.2.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10304
+    },
+    {
+      "id": "TC_042",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.5",
+        "SOLAS II-2/10.4.3",
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/10.7.1.1",
+        "FSS Code/6.4.2",
+        "SOLAS II-2/10.7.1.3",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/10.6.1.1",
+        "SOLAS II-2/10.2.1.5",
+        "SOLAS II-2/23.5",
+        "SOLAS II-2/21.4",
+        "SOLAS II-2/20.1",
+        "SOLAS II-2/21.4.5",
+        "SOLAS II-2/8",
+        "FSS Code/9.2.5.1.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/23.5"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 7425
+    },
+    {
+      "id": "TC_043",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.3.2"
+      ]
+    },
+    {
+      "id": "TC_044",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/5.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7730
+    },
+    {
+      "id": "TC_045",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.4.2"
+      ]
+    },
+    {
+      "id": "TC_046",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/13.3.2.1.2",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.4.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/2.1.1",
+        "SOLAS II-2/13.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13806
+    },
+    {
+      "id": "TC_047",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.5.1.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.5.2.1",
+        "SOLAS II-2/10.5.6",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/5.2.2",
+        "FSS Code/5.2.2.1",
+        "SOLAS II-2/8.3",
+        "FSS Code/14.2.1.3",
+        "SOLAS II-2/10.4.1",
+        "FSS Code/15.2.1.2",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/1.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13869
+    },
+    {
+      "id": "TC_048",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.4.3",
+        "SOLAS II-2/10.6.3.3",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/4.5.1.3",
+        "SOLAS II-2/10.6.3",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/20",
+        "SOLAS II-2/10.3.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.6.3.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11659
+    },
+    {
+      "id": "TC_049",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2"
+      ]
+    },
+    {
+      "id": "TC_050",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.6.3.1"
+      ]
+    },
+    {
+      "id": "TC_051",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.1.1"
+      ]
+    },
+    {
+      "id": "TC_052",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.1.1.5.10"
+      ]
+    },
+    {
+      "id": "TC_053",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.3.2.3",
+        "SOLAS II-2/10.2.3.2.20",
+        "SOLAS II-2/10.2.3.2.27",
+        "SOLAS II-2/10.2.3.2.29",
+        "SOLAS II-2/10.2.3.2.23",
+        "SOLAS II-2/10.2.3.2.24",
+        "SOLAS II-2/10.2.3.2.41",
+        "SOLAS II-2/10.2.3.2.30",
+        "SOLAS II-2/10.1.1.1",
+        "SOLAS II-2/10.2.3.2.16",
+        "SOLAS II-2/10.2.3.2.47",
+        "SOLAS II-2/10.2.3.2.49",
+        "SOLAS II-2/19.3.9",
+        "SOLAS II-2/10.2.3.2.32",
+        "SOLAS II-2/10.2.3.2.4",
+        "SOLAS II-2/10.2.3.2.25",
+        "SOLAS II-2/10.2.1.5",
+        "SOLAS II-2/10.2.3.2.43",
+        "SOLAS II-2/10.2.3.2.2",
+        "SOLAS II-2/10.2.3.2.34",
+        "SOLAS II-2/10.2.3.2.15",
+        "SOLAS II-2/10.2.3.2.10",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/10.2.1.6",
+        "SOLAS II-2/10.2.3.2.31",
+        "SOLAS II-2/10.2.3.2.42",
+        "SOLAS II-2/10.2.3.2.14",
+        "SOLAS II-2/10.2.3.2.44",
+        "SOLAS II-2/10.2.3.2.11",
+        "SOLAS II-2/10.2.3.2.45",
+        "SOLAS II-2/10.2.1.5.1",
+        "SOLAS II-2/10.2.3.2.18",
+        "SOLAS II-2/10.2.3.2.35",
+        "SOLAS II-2/19.3.1",
+        "SOLAS II-2/10.2.3.2.37",
+        "SOLAS II-2/10.7.3",
+        "SOLAS II-2/10.2.3.2.33",
+        "SOLAS II-2/10.2.3.2.39",
+        "SOLAS II-2/10.2.3.2.46",
+        "SOLAS II-2/10.2.3.2.48",
+        "SOLAS II-2/10.2.3.2.13",
+        "SOLAS II-2/10.2.3.2.17",
+        "SOLAS II-2/10.2.3.2.22",
+        "SOLAS II-2/10.2.3.2.21",
+        "SOLAS II-2/10.2.3.2.19",
+        "SOLAS II-2/10.2.3.2.5",
+        "SOLAS II-2/10.2.3.2.50",
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.2.3.2.1",
+        "FSS Code/12.2.2.1.2",
+        "SOLAS II-2/10.2.3.2.9",
+        "SOLAS II-2/10.2.3.2.26",
+        "SOLAS II-2/10.2.3.2.28",
+        "SOLAS II-2/10.2.2.4.1",
+        "SOLAS II-2/10.2.3.2.36",
+        "SOLAS II-2/10.2.3.2.38",
+        "SOLAS II-2/10.2.3.2.12",
+        "SOLAS II-2/10.2.3.2.7",
+        "SOLAS II-2/10.2.3.2.6",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/10.2.3.2.40",
+        "SOLAS II-2/10.2.3.2.8",
+        "SOLAS II-2/10.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.6.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 20882
+    },
+    {
+      "id": "TC_054",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.4.1",
+        "FSS Code/9.2.2.4",
+        "FSS Code/9.2.2",
+        "SOLAS II-2/10.6.1.1",
+        "SOLAS II-2/7.9",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/22.3",
+        "SOLAS II-2/7.2",
+        "FSS Code/9.2.2.5",
+        "SOLAS II-2/7.5.2",
+        "FSS Code/9.2.2.1",
+        "FSS Code/9.2.4.2.5",
+        "FSS Code/9.2.2.2",
+        "SOLAS II-2/7.2.2",
+        "SOLAS II-2/7.9.9"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.2.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12839
+    },
+    {
+      "id": "TC_055",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/4.5.1.4.1",
+        "SOLAS II-2/4.5.3.5",
+        "SOLAS II-2/4.5.1.4",
+        "SOLAS II-2/4.5.1.1",
+        "SOLAS II-2/4.5.1.2",
+        "SOLAS II-2/4.5.1.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.1.1",
+        "SOLAS II-2/4.5.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10244
+    },
+    {
+      "id": "TC_056",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/6.4.2",
+        "SOLAS II-2/10.2.2.4.1",
+        "SOLAS II-2/10.2.2.4.1.1",
+        "SOLAS II-2/18.2",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/10.2.2.4.2",
+        "FSS Code/5.2.2.4.3",
+        "FSS Code/14.1",
+        "FSS Code/12.2.2.1.1",
+        "FSS Code/10.2.2",
+        "FSS Code/16.2.1",
+        "SOLAS II-2/10.2.2.3.1",
+        "SOLAS II-2/10.2.2.3.1.1",
+        "SOLAS II-2/5.7.2",
+        "SOLAS II-2/10.2.2.4.1.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/12.2.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 14569
+    },
+    {
+      "id": "TC_057",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.10.1.3",
+        "FSS Code/16.2.2.3.3"
+      ]
+    },
+    {
+      "id": "TC_058",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/6.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.4.1.5",
+        "FSS Code/6.3.3.1.5",
+        "FSS Code/6.3.2.1.3",
+        "SOLAS II-2/4.5.10.1",
+        "FSS Code/6.3.2.1.4",
+        "FSS Code/6.3.3.2.6",
+        "FSS Code/14.2.3.2",
+        "FSS Code/6.3.2",
+        "FSS Code/14.2.3.3",
+        "FSS Code/14.2.3.2.3",
+        "SOLAS II-2/10.9.1",
+        "SOLAS II-2/18.2.2",
+        "FSS Code/6.3.2.2.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.3.2.2.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9935
+    },
+    {
+      "id": "TC_059",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.3.1.5"
+      ]
+    },
+    {
+      "id": "TC_060",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/5.2.1.3.2"
+      ]
+    },
+    {
+      "id": "TC_061",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/10.5.1.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.5.6",
+        "SOLAS II-2/10.5.2.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/10.7.2",
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/18.7",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/4.2.2.3.2",
+        "FSS Code/5.2.2.1",
+        "SOLAS II-2/10.4.1",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/1.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10130
+    },
+    {
+      "id": "TC_062",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.2.5"
+      ]
+    },
+    {
+      "id": "TC_063",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.1.1",
+        "SOLAS II-2/7.8.2",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/10.2.2",
+        "SOLAS II-2/4.5.1.3",
+        "SOLAS II-2/22.3",
+        "SOLAS II-2/19.3.1",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/10.2.1.5.2",
+        "SOLAS II-2/10.7.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11579
+    },
+    {
+      "id": "TC_064",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/15.2.4.2",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/18.5",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/4.5.4.1",
+        "SOLAS II-2/15.3.2",
+        "SOLAS II-2/9.7.2.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.10.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13192
+    },
+    {
+      "id": "TC_065",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.2.2.2.2",
+        "SOLAS II-2/9.2.3.2.4",
+        "SOLAS II-2/9.2.3.2.2",
+        "SOLAS II-2/9.2.3.2.1",
+        "SOLAS II-2/9.2.3.2.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12308
+    },
+    {
+      "id": "TC_066",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/15.2.2.6",
+        "SOLAS II-2/10.10.2.5",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.2.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.2.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9568
+    },
+    {
+      "id": "TC_067",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/6.3.4",
+        "FSS Code/6.1",
+        "FSS Code/14.2.1",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/10.8.1",
+        "FSS Code/6.3.1.6",
+        "FSS Code/14.2.2",
+        "FSS Code/17.3",
+        "FSS Code/14.2.1.3",
+        "SOLAS II-2/10.4.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.3.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12269
+    },
+    {
+      "id": "TC_068",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/14.2.1",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/1.6",
+        "FSS Code/6.3.1.3.1.1",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8599
+    },
+    {
+      "id": "TC_069",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.4.5.4"
+      ]
+    },
+    {
+      "id": "TC_070",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.3.2.3",
+        "FSS Code/4.3.1.1.3.1.1.2",
+        "SOLAS II-2/10.3.2.1",
+        "FSS Code/4.3.1.1",
+        "SOLAS II-2/10.3.2",
+        "FSS Code/4.3.1.1.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/4.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11890
+    },
+    {
+      "id": "TC_071",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.3.4.3",
+        "SOLAS II-2/11.6.2",
+        "SOLAS II-2/4.5.3.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.3.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9019
+    },
+    {
+      "id": "TC_072",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/8.2.4.2",
+        "SOLAS II-2/14.2.2",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/1.2.5",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/21.1",
+        "FSS Code/17.3.3",
+        "FSS Code/14.2.3.4.1",
+        "SOLAS II-2/2.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10178
+    },
+    {
+      "id": "TC_073",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.2.2.3.2",
+        "FSS Code/8.2.4.2",
+        "FSS Code/8.2.4.3",
+        "FSS Code/8.2.3.3.1",
+        "FSS Code/8.2.2.1",
+        "SOLAS II-2/10.6.1.1",
+        "SOLAS II-2/9",
+        "SOLAS II-2/10.6.1.2",
+        "SOLAS II-2/10.6.1",
+        "FSS Code/8.2.3.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/8.2.4.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8982
+    },
+    {
+      "id": "TC_074",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/2.3",
+        "SOLAS II-2/10.7.1.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.2.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10710
+    },
+    {
+      "id": "TC_075",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/18.7",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/4.2.2.4",
+        "SOLAS II-2/9.7.5.1.2",
+        "SOLAS II-2/9.7.2.1",
+        "FSS Code/15.2.3.1",
+        "FSS Code/9.2.4.1",
+        "FSS Code/15.2.3.1.1.2",
+        "FSS Code/5.2.1.1",
+        "SOLAS II-2/23.6",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7403
+    },
+    {
+      "id": "TC_076",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.4.1",
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.5",
+        "SOLAS II-2/7.9.3",
+        "FSS Code/10.2.1",
+        "FSS Code/8.2.2.1",
+        "FSS Code/9.2.3.2",
+        "FSS Code/9.2.2",
+        "FSS Code/9.2.1.2",
+        "FSS Code/9.2.4.1",
+        "FSS Code/9.2.2.1",
+        "SOLAS II-2/7.4.1",
+        "FSS Code/8.2.2.2",
+        "FSS Code/10.2.2.6",
+        "SOLAS II-2/7.9.9"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/9.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13815
+    },
+    {
+      "id": "TC_077",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.3.3"
+      ]
+    },
+    {
+      "id": "TC_078",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.4.4"
+      ]
+    },
+    {
+      "id": "TC_079",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/22.1",
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/1.2.2",
+        "SOLAS II-2/13.7.3.1",
+        "SOLAS II-2/13.4.2.4",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/13.7.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.7.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 21590
+    },
+    {
+      "id": "TC_080",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/4.3.1.1.1"
+      ]
+    },
+    {
+      "id": "TC_081",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.5.4"
+      ]
+    },
+    {
+      "id": "TC_082",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/1.2",
+        "SOLAS II-2/10.7.3.2",
+        "SOLAS II-2/9.2.2.3",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/2.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12311
+    },
+    {
+      "id": "TC_083",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/10.8.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/6.3.2.2.4",
+        "SOLAS II-2/10.8.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10330
+    },
+    {
+      "id": "TC_084",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.1.5.2",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/10.2.1.5",
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/19.3.1",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/10.2.1.6",
+        "SOLAS II-2/10.7.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12883
+    },
+    {
+      "id": "TC_085",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.1",
+        "SOLAS II-2/10.4.1",
+        "SOLAS II-2/20.6.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/5.2.2.1.7",
+        "SOLAS II-2/10.6.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12355
+    },
+    {
+      "id": "TC_086",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/5.2.2.1"
+      ]
+    },
+    {
+      "id": "TC_087",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.3.4.1"
+      ]
+    },
+    {
+      "id": "TC_088",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/19.3.4.2",
+        "SOLAS II-2/19.3.4",
+        "SOLAS II-2/19.3.4.3",
+        "SOLAS II-2/19.3.5",
+        "SOLAS II-2/20.3.1.2.2",
+        "SOLAS II-2/4.5.4.1",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/20.3.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/19.3.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9015
+    },
+    {
+      "id": "TC_089",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.2.1",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/13.4.2.1.1",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.4.1.1.5",
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9.4.1.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.1.1.2"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 11153
+    },
+    {
+      "id": "TC_090",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.7.1.1",
+        "FSS Code/6.3.3.2.2",
+        "FSS Code/14.2.1",
+        "SOLAS II-2/10.8.1",
+        "FSS Code/6.3.2.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/6.3.3.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 14421
+    },
+    {
+      "id": "TC_091",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.1.3.1",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.2.2.3.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9374
+    },
+    {
+      "id": "TC_092",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.10.1.2",
+        "SOLAS II-2/9.2.3.3",
+        "SOLAS II-2/4.5.1.1",
+        "SOLAS II-2/7.8.2",
+        "SOLAS II-2/9.4.1.1.7",
+        "SOLAS II-2/9.4.1.2.3",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/9",
+        "SOLAS II-2/4.5.2",
+        "SOLAS II-2/9.2.4.2.3",
+        "FSS Code/6.3.2",
+        "SOLAS II-2/4.5.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.2.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13786
+    },
+    {
+      "id": "TC_093",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3.4"
+      ]
+    },
+    {
+      "id": "TC_094",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.3.3",
+        "SOLAS II-2/10.6.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.6.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8984
+    },
+    {
+      "id": "TC_095",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.2.2",
+        "SOLAS II-2/10.4.3",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/10.2.2.4.1",
+        "SOLAS II-2/13.3.3.6",
+        "SOLAS II-2/7.8.2",
+        "SOLAS II-2/13.3.2.1.1",
+        "SOLAS II-2/13.4.2.1.2",
+        "SOLAS II-2/9.4.2.3",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/13.3.1.2",
+        "SOLAS II-2/13.4.1.1",
+        "SOLAS II-2/9.4.1.1.8",
+        "SOLAS II-2/13.7.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17508
+    },
+    {
+      "id": "TC_096",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.2"
+      ]
+    },
+    {
+      "id": "TC_097",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/22.3.3",
+        "FSS Code/9.2.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.3.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7679
+    },
+    {
+      "id": "TC_098",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.4.2.1",
+        "SOLAS II-2/13.4.1.6",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/13.4.2.4",
+        "SOLAS II-2/13.4.1.5",
+        "SOLAS II-2/13.4.2.1.2",
+        "SOLAS II-2/18.7",
+        "SOLAS II-2/13.3.2.4",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/18.4",
+        "SOLAS II-2/13.4.2.6",
+        "SOLAS II-2/13.4.1.1",
+        "SOLAS II-2/13.4.1.2",
+        "SOLAS II-2/13.4.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.4.2.1.1"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 11019
+    },
+    {
+      "id": "TC_099",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/1.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/1.2.2",
+        "SOLAS II-2/9.2.2.3",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/1.2.4",
+        "SOLAS II-2/2.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.2.1",
+        "SOLAS II-2/1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 14393
+    },
+    {
+      "id": "TC_100",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/2.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.3",
+        "SOLAS II-2/2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 18810
+    },
+    {
+      "id": "TC_101",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.10.2.5",
+        "SOLAS II-2/10.10.2.4",
+        "FSS Code/3.2.2.1",
+        "SOLAS II-2/15.2.2.6",
+        "SOLAS II-2/10.10.2.2",
+        "SOLAS II-2/19.3.6",
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/13.3.4",
+        "SOLAS II-2/15.2.2",
+        "SOLAS II-2/10.10.2",
+        "SOLAS II-2/10.10.1",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.2.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12121
+    },
+    {
+      "id": "TC_102",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.5.6",
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/10.8.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/5.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12224
+    },
+    {
+      "id": "TC_103",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.7.3",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/10.7.3.2",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/19.3.6",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/10.3.2",
+        "FSS Code/3.2.1.1.4",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/10.3.2.1",
+        "FSS Code/3.2.1.1",
+        "SOLAS II-2/10.10.4",
+        "SOLAS II-2/10.2.3.2.1",
+        "SOLAS II-2/10.10.2",
+        "SOLAS II-2/10.10.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16012
+    },
+    {
+      "id": "TC_104",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.5.2.2",
+        "FSS Code/5.2.1.1.3",
+        "SOLAS II-2/20.6.2",
+        "FSS Code/4.3.1.1",
+        "FSS Code/5.2.1.1",
+        "SOLAS II-2/19.3.7",
+        "FSS Code/4.3.1.1.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/4.3.1.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7870
+    },
+    {
+      "id": "TC_105",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/10.2.1.7.1",
+        "SOLAS II-2/18.2",
+        "FSS Code/9.2.3.3",
+        "FSS Code/9.2.2",
+        "FSS Code/3.2.1.1",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/7.8.3",
+        "SOLAS II-2/10.10.4",
+        "SOLAS II-2/10.10.2",
+        "FSS Code/8.2.2.2",
+        "SOLAS II-2/10.2.1.6",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/2.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10249
+    },
+    {
+      "id": "TC_106",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.2.7.2"
+      ]
+    },
+    {
+      "id": "TC_107",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.6.4.3"
+      ]
+    },
+    {
+      "id": "TC_108",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/15.2.4.1"
+      ]
+    },
+    {
+      "id": "TC_109",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.2.2.5",
+        "SOLAS II-2/4.2.2.3.4",
+        "SOLAS II-2/4.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.4",
+        "SOLAS II-2/4.2.2.3.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11000
+    },
+    {
+      "id": "TC_110",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/4.2.2.3",
+        "FSS Code/16.2.2.2.1.4",
+        "FSS Code/16.2.2.3",
+        "FSS Code/16.2.2.1.3",
+        "SOLAS II-2/4.5.7.2",
+        "SOLAS II-2/4.5.7.3",
+        "SOLAS II-2/1.6.6",
+        "FSS Code/16.2.2.1",
+        "FSS Code/16.2.1.3",
+        "FSS Code/16.2.2.2.1",
+        "SOLAS II-2/4.5.10.1.3",
+        "SOLAS II-2/20.5",
+        "FSS Code/16.2.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.2.1.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13509
+    },
+    {
+      "id": "TC_111",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/7.9.3",
+        "FSS Code/9.2.3.3",
+        "FSS Code/8.2.2.1",
+        "FSS Code/9.2.2",
+        "SOLAS II-2/10.6.1.1",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/9.5.2.5",
+        "FSS Code/9.2.2.5",
+        "FSS Code/9.2.5",
+        "FSS Code/9.2.2.1",
+        "FSS Code/8.2.2.2",
+        "FSS Code/9.2.2.2",
+        "SOLAS II-2/7.2.2",
+        "SOLAS II-2/7.9.9"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/9.2.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11909
+    },
+    {
+      "id": "TC_112",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/9.7.6",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/18.7",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.4",
+        "FSS Code/15.2.3.1",
+        "FSS Code/5.2.1.1",
+        "SOLAS II-2/4.5.4.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.10.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17988
+    },
+    {
+      "id": "TC_113",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/5.2.2.1.2",
+        "SOLAS II-2/10.7.1.3",
+        "SOLAS II-2/10.4.1.5",
+        "SOLAS II-2/19.3.9",
+        "SOLAS II-2/10.6.1.1",
+        "SOLAS II-2/10.7.2",
+        "SOLAS II-2/20.6.1",
+        "FSS Code/5.2.2.2",
+        "SOLAS II-2/10.6.3",
+        "FSS Code/5.2.2.1",
+        "FSS Code/5.2.1.1",
+        "SOLAS II-2/10.9.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/5.2.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 15092
+    },
+    {
+      "id": "TC_114",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.4"
+      ]
+    },
+    {
+      "id": "TC_115",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/10.6.1.1",
+        "SOLAS II-2/10.6.1.2",
+        "SOLAS II-2/7",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/7.5.2",
+        "FSS Code/9.2.4.2.5",
+        "SOLAS II-2/10.6.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/7.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16151
+    },
+    {
+      "id": "TC_116",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/4.2.1.3.4",
+        "SOLAS II-2/9.2.3.3",
+        "SOLAS II-2/4.5.1.4",
+        "SOLAS II-2/9.7.5.1.4",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.7.5.1.2",
+        "SOLAS II-2/9.7.2.1",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/9.7.5.1.1",
+        "SOLAS II-2/9.7.5.1",
+        "SOLAS II-2/9.7.7.4",
+        "SOLAS II-2/9.7.7"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.5.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6992
+    },
+    {
+      "id": "TC_117",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.8.1",
+        "FSS Code/14.2.2",
+        "FSS Code/14.2.2.2",
+        "FSS Code/14.2.3.3",
+        "FSS Code/14.2.3.2",
+        "FSS Code/14.2.3.2.3",
+        "FSS Code/17.3.3",
+        "FSS Code/14.2.3.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/14.2.3.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10784
+    },
+    {
+      "id": "TC_118",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/22.1",
+        "SOLAS II-2/13.4.1",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/4.5.5.2",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/18.4",
+        "FSS Code/13.2.1.2.2.2",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/13.4.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13284
+    },
+    {
+      "id": "TC_119",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.2.4.1",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/10.2.2.4.2",
+        "SOLAS II-2/10.2.2.2",
+        "SOLAS II-2/10.2.2.4.1.2",
+        "SOLAS II-2/19.3.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.2.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16186
+    },
+    {
+      "id": "TC_120",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/20.2",
+        "SOLAS II-2/8.5",
+        "FSS Code/10.1",
+        "FSS Code/10.2.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.4.1.5",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/20.1.3",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/1.2.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/10.2.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13576
+    },
+    {
+      "id": "TC_121",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/5.2.1.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.2.4",
+        "SOLAS II-2/5.2.1.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.5.1",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.4",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/8.3",
+        "SOLAS II-2/20.3.1.4.1",
+        "SOLAS II-2/9.7.7",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.10.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16171
+    },
+    {
+      "id": "TC_122",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/1.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/7.5.3",
+        "FSS Code/10.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/5.3.4",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/1.2.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/8.2.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10473
+    },
+    {
+      "id": "TC_123",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/1.2.2",
+        "SOLAS II-2/13.7.3.1",
+        "SOLAS II-2/1.2.3",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/1.1",
+        "SOLAS II-2/13.7.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.7.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12179
+    },
+    {
+      "id": "TC_124",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.3.2",
+        "FSS Code/15.2.2.3.2",
+        "FSS Code/15.2.2.3.1",
+        "FSS Code/5.2.1.2",
+        "FSS Code/15.2.2.2",
+        "FSS Code/15.2.2.3.1.8",
+        "FSS Code/5.2.2.4.3",
+        "FSS Code/15.2.2.3.1.3",
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/4.5.3.2.2",
+        "FSS Code/15.2.3.1.1.2",
+        "SOLAS II-2/10.2.1.4.4",
+        "FSS Code/15.2.2.3.2.3",
+        "SOLAS II-2/4.5.3.4.2",
+        "FSS Code/15.2.2.3.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.3.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11724
+    },
+    {
+      "id": "TC_125",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.6",
+        "FSS Code/10.1",
+        "SOLAS II-2/8.5",
+        "FSS Code/10.2.1",
+        "SOLAS II-2/4.5.8",
+        "FSS Code/10.2.1.2",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/4.5.7.2",
+        "FSS Code/10.2.1.1",
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/20.4.2",
+        "FSS Code/10.2.3.1",
+        "FSS Code/16.2.2.1",
+        "SOLAS II-2/4.5.4.1",
+        "SOLAS II-2/19.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/10.2.2.2"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 14396
+    },
+    {
+      "id": "TC_126",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.1",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.6",
+        "SOLAS II-2/13.4.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17430
+    },
+    {
+      "id": "TC_127",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2.1.2",
+        "SOLAS II-2/4.2.1.2",
+        "SOLAS II-2/4.2.1",
+        "FSS Code/14.2.2.1.5",
+        "SOLAS II-2/4.2.1.3",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.2.2",
+        "SOLAS II-2/1.6",
+        "FSS Code/14.2.2",
+        "SOLAS II-2/9.6.6",
+        "FSS Code/14.2.2.1",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/4.2.1.5"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11437
+    },
+    {
+      "id": "TC_128",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.1.1.5.3"
+      ]
+    },
+    {
+      "id": "TC_129",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.3.2",
+        "SOLAS II-2/16.3.3",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.5.5.1.4",
+        "SOLAS II-2/4.5.5.1",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/4.5.5.1.2",
+        "FSS Code/15.2.3.1",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/1.6.6",
+        "FSS Code/15.2.2.1.4",
+        "SOLAS II-2/16.3.3.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.3.2.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12226
+    },
+    {
+      "id": "TC_130",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.4.3.1",
+        "SOLAS II-2/7.1.3",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/14.3",
+        "SOLAS II-2/7.9",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/10.6.1",
+        "SOLAS II-2/10.10.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/7.8.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 26858
+    },
+    {
+      "id": "TC_131",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.2.4.1",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/10.2.2.4.2",
+        "SOLAS II-2/10.2.1.3",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/10.2.2.2",
+        "FSS Code/12.2.2.1.1",
+        "SOLAS II-2/10.2.2.4.1.2",
+        "SOLAS II-2/10.2.2.3.1",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/10.2.2.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.2.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9690
+    },
+    {
+      "id": "TC_132",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/6.4.2",
+        "SOLAS II-2/10.2.2.4.1",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/18.2",
+        "SOLAS II-2/10.2.2.4.1.1",
+        "SOLAS II-2/10.2.2.4.2",
+        "FSS Code/9.2.1",
+        "FSS Code/5.2.2.4.3",
+        "FSS Code/14.1",
+        "FSS Code/10.2.2",
+        "FSS Code/16.2.1",
+        "FSS Code/12.2.2.1.1",
+        "SOLAS II-2/4.5.7.2",
+        "SOLAS II-2/10.2.2.4.1.2",
+        "SOLAS II-2/13.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13195
+    },
+    {
+      "id": "TC_133",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/9.2.2.2.2",
+        "FSS Code/9.2.3.1",
+        "SOLAS II-2/10.6.1.1",
+        "FSS Code/13.3",
+        "FSS Code/9.2.4.2.1",
+        "SOLAS II-2/10.6.1.2",
+        "FSS Code/9.2.3.1.2",
+        "FSS Code/9.2.5.2",
+        "SOLAS II-2/9.6.6",
+        "SOLAS II-2/5.3.3",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/10.10.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11484
+    },
+    {
+      "id": "TC_134",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.2.4",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.1",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/4.5.7.2",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/9.7.2.2",
+        "SOLAS II-2/12.3.2",
+        "SOLAS II-2/9.7.5.1",
+        "SOLAS II-2/9.7.7",
+        "SOLAS II-2/9.7.2.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.2.4.1.3",
+        "SOLAS II-2/9.7.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 15180
+    },
+    {
+      "id": "TC_135",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.2.5",
+        "FSS Code/15.2.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.2.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12854
+    },
+    {
+      "id": "TC_136",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.2.4.1"
+      ]
+    },
+    {
+      "id": "TC_137",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/16.2.2.2.1.2",
+        "SOLAS II-2/4.5.7.2",
+        "SOLAS II-2/4.5.7.3.2",
+        "FSS Code/16.2.2.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.2.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16831
+    },
+    {
+      "id": "TC_138",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.3.1",
+        "SOLAS II-2/10.6.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8597
+    },
+    {
+      "id": "TC_139",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/6.3.4",
+        "SOLAS II-2/10.7.1.1",
+        "FSS Code/6.2",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/10.5.2.2.2",
+        "FSS Code/14.2.2",
+        "SOLAS II-2/10.8.1.3",
+        "FSS Code/6.4.1",
+        "SOLAS II-2/1.6.6",
+        "FSS Code/6.3.4.2",
+        "FSS Code/4.3.2.2",
+        "FSS Code/17.3.3",
+        "SOLAS II-2/1.6.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.3.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10725
+    },
+    {
+      "id": "TC_140",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/19.3.1.3",
+        "SOLAS II-2/10.6.3.3",
+        "SOLAS II-2/10.2.3.1.1",
+        "SOLAS II-2/10.7.3.2",
+        "SOLAS II-2/10.7.3.2.1",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/13.3.2.3",
+        "SOLAS II-2/10.2.1.5",
+        "SOLAS II-2/10.2.3.2.2",
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.2.3.2.1",
+        "SOLAS II-2/19.3.1",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/10.7.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 14970
+    },
+    {
+      "id": "TC_141",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/10.10.2.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7239
+    },
+    {
+      "id": "TC_142",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2.2.1.3",
+        "SOLAS II-2/10.8.1.1",
+        "SOLAS II-2/10.7.1.1",
+        "FSS Code/14.2.2.1.3",
+        "FSS Code/14.2.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/1.6.6.2.1",
+        "SOLAS II-2/1.6",
+        "FSS Code/14.2.2",
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/1.6.6",
+        "FSS Code/17.3.3",
+        "SOLAS II-2/1.6.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10616
+    },
+    {
+      "id": "TC_143",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.5",
+        "FSS Code/13.2.1.2.2.2.1",
+        "SOLAS II-2/13.4.1.6",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/18.7",
+        "FSS Code/13.3",
+        "SOLAS II-2/19.3.10",
+        "SOLAS II-2/13.4.2",
+        "FSS Code/9.2.3.1.2",
+        "SOLAS II-2/18.4",
+        "FSS Code/13.2.5.1",
+        "FSS Code/13.2.1.2.2.2",
+        "SOLAS II-2/13.4.2.6",
+        "SOLAS II-2/13.5.5",
+        "SOLAS II-2/13.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7614
+    },
+    {
+      "id": "TC_144",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/16.2.1"
+      ]
+    },
+    {
+      "id": "TC_145",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/7.6",
+        "FSS Code/9.2.4.2.1",
+        "SOLAS II-2/7.5.2",
+        "FSS Code/9.2.4.2.5",
+        "SOLAS II-2/7.2.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9886
+    },
+    {
+      "id": "TC_146",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/20.6.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/5.2.1.2.6"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 9721
+    },
+    {
+      "id": "TC_147",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/1.2",
+        "SOLAS II-2/19.3.6.1",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/19.3.6",
+        "SOLAS II-2/10.2.3.2.1",
+        "SOLAS II-2/19.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/19.3.6.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8108
+    },
+    {
+      "id": "TC_148",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/5.2.1.1",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/15.2.4.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/20.3.1.4.1",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.1.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9739
+    },
+    {
+      "id": "TC_149",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.3.2",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.5.5.1",
+        "SOLAS II-2/4.5.5.1.1",
+        "FSS Code/15.2.2.3.2.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.3.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7560
+    },
+    {
+      "id": "TC_150",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.10.4",
+        "FSS Code/9.2.2",
+        "FSS Code/9.2.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 7797
+    },
+    {
+      "id": "TC_151",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/20.4.1"
+      ]
+    },
+    {
+      "id": "TC_152",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2",
+        "FSS Code/17.3",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/10.5.1.2.2",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/18.5.3",
+        "FSS Code/6.4.1.2",
+        "FSS Code/6.3.2.2.4",
+        "SOLAS II-2/10.7.1.1",
+        "FSS Code/17.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.4.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8512
+    },
+    {
+      "id": "TC_153",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.2.3.1",
+        "SOLAS II-2/10.2.2.3.1.1",
+        "FSS Code/12.2.2.1.1",
+        "SOLAS II-2/10.2.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.2.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12625
+    },
+    {
+      "id": "TC_154",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.8.2",
+        "SOLAS II-2/9.2.2.4.4",
+        "SOLAS II-2/9.5.2.2",
+        "SOLAS II-2/9.4.1.3",
+        "SOLAS II-2/9.5.2.1",
+        "SOLAS II-2/9.2.4.2.6",
+        "FSS Code/15.2.3.1.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7363
+    },
+    {
+      "id": "TC_155",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.2",
+        "FSS Code/9.2.4.2.1",
+        "FSS Code/9.2.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8714
+    },
+    {
+      "id": "TC_156",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9.4.1.1.2",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/9.4.1.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6510
+    },
+    {
+      "id": "TC_157",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.1",
+        "SOLAS II-2/9.7.2.4.1.3",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.7.2.6",
+        "SOLAS II-2/9.7.2.2",
+        "SOLAS II-2/4.5.2",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/9.7.2.4.1.1",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/9.7.5.1",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.7",
+        "SOLAS II-2/9.7.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.2.4.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11984
+    },
+    {
+      "id": "TC_158",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/10.2.1",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/8.5",
+        "SOLAS II-2/4.5.4.2",
+        "FSS Code/10.2.3.1",
+        "FSS Code/10.2.2",
+        "FSS Code/10.1",
+        "SOLAS II-2/20.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/10.2.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9751
+    },
+    {
+      "id": "TC_159",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.3.2",
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/10.3.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.3.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9133
+    },
+    {
+      "id": "TC_160",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.2.2",
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/20.3.1.2",
+        "FSS Code/16.2.2.1",
+        "SOLAS II-2/9.7.2.4",
+        "SOLAS II-2/20.4.2",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/13.5",
+        "SOLAS II-2/20.2.2",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/20.1",
+        "FSS Code/6.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/20.3.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12062
+    },
+    {
+      "id": "TC_161",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.2.5",
+        "FSS Code/15.2.2.2",
+        "SOLAS II-2/16.3.3.3",
+        "SOLAS II-2/16.3.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.2.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17357
+    },
+    {
+      "id": "TC_162",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.4.1",
+        "FSS Code/13.2.5.1",
+        "FSS Code/13.2.1.2.2.2",
+        "SOLAS II-2/13.3.2.4",
+        "SOLAS II-2/13.4.1.1",
+        "FSS Code/13.3",
+        "SOLAS II-2/5.3.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.3.2.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9281
+    },
+    {
+      "id": "TC_163",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/16.2.2.2.1.2",
+        "FSS Code/16.2.2.2.1",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/4.5.7.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.2.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7740
+    },
+    {
+      "id": "TC_164",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.1.5",
+        "SOLAS II-2/9.5.1",
+        "SOLAS II-2/10.2.2.3.2.1",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/13.4.2.5",
+        "SOLAS II-2/8.3",
+        "SOLAS II-2/7.9.9",
+        "SOLAS II-2/9",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/9.2.3.3",
+        "SOLAS II-2/9.5.2.3",
+        "SOLAS II-2/9.2.2.3.2.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/9.4.2",
+        "FSS Code/5.2.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11565
+    },
+    {
+      "id": "TC_165",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2.2.1",
+        "FSS Code/6.3.1.6",
+        "FSS Code/6.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/6.3.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7384
+    },
+    {
+      "id": "TC_166",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.2.3.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9740
+    },
+    {
+      "id": "TC_167",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.10.2.5",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/10.10.1.2",
+        "FSS Code/3.2.1.2.1",
+        "FSS Code/3.2.1.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8088
+    },
+    {
+      "id": "TC_168",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2",
+        "FSS Code/17.3.3",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/1.6.6.2.1.3",
+        "FSS Code/14.2.1",
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/1.6.3",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/1.6",
+        "FSS Code/14.2.2.1.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11254
+    },
+    {
+      "id": "TC_169",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2",
+        "SOLAS II-2/4.2.4",
+        "SOLAS II-2/4.5.1.1",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.5.1.4",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/4.2.2.5.2",
+        "SOLAS II-2/4.2.2.4",
+        "SOLAS II-2/4.2.2.5",
+        "SOLAS II-2/4.5.7.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17827
+    },
+    {
+      "id": "TC_170",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.6",
+        "SOLAS II-2/13.4.1.6",
+        "SOLAS II-2/19.3.10",
+        "FSS Code/13.2.1.2.2.2",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/13.5.5",
+        "SOLAS II-2/13.4.1.2",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/18.4",
+        "SOLAS II-2/13.4.2.6",
+        "SOLAS II-2/13.5",
+        "FSS Code/13.2.5.1",
+        "SOLAS II-2/13.3.2.2",
+        "FSS Code/13.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11547
+    },
+    {
+      "id": "TC_171",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.1.2",
+        "FSS Code/16.2.2.1",
+        "FSS Code/16.2.2.3",
+        "FSS Code/16.2.2.1.3",
+        "SOLAS II-2/4.5.7.2.1",
+        "SOLAS II-2/4.5.7.2.2",
+        "FSS Code/16.2.2.2.1",
+        "FSS Code/16.2.1",
+        "SOLAS II-2/4.5.7.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.7.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9143
+    },
+    {
+      "id": "TC_172",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.1.2",
+        "SOLAS II-2/9.2.2.3",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/10.6.1.1",
+        "FSS Code/9.2.4.2.1",
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/7.2.2",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/10.6.1",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/9.2.4.2.5"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7122
+    },
+    {
+      "id": "TC_173",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/10.7.2",
+        "SOLAS II-2/10.4.1.5",
+        "FSS Code/5.2.1.2",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/10.4.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.7.1",
+        "FSS Code/5.2.1.2.6",
+        "SOLAS II-2/4.5.5.1.3",
+        "SOLAS II-2/10.5.6",
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/10.7.1.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/5.2.1.2.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7746
+    },
+    {
+      "id": "TC_174",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/5.3.2.3",
+        "SOLAS II-2/20.6.1.4",
+        "SOLAS II-2/19.4",
+        "SOLAS II-2/1.2",
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/19.3.6.1",
+        "SOLAS II-2/4.5.5",
+        "SOLAS II-2/19.3.6",
+        "SOLAS II-2/9.4.1.1.6"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/19.3.6.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9257
+    },
+    {
+      "id": "TC_175",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/20.4.2",
+        "SOLAS II-2/8.3",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/9.7.1.5",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/5.2.1.1",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.1.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12020
+    },
+    {
+      "id": "TC_176",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/16.2.2.3",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/4.5.10.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12109
+    },
+    {
+      "id": "TC_177",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.2.1",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/13.3.2.5.2",
+        "SOLAS II-2/9.7.4.1",
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/5.2.1.2.1.3",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/22.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/5.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11366
+    },
+    {
+      "id": "TC_178",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.5.5.1.2",
+        "FSS Code/15.2.2.3.2.3",
+        "FSS Code/15.2.2.3.2.10",
+        "SOLAS II-2/4.5.1.4",
+        "FSS Code/15.2.2.3.2.1",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/15.2.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.3.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11611
+    },
+    {
+      "id": "TC_179",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/3.2.1.1.4",
+        "SOLAS II-2/10.10.4",
+        "FSS Code/3.2.1.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 15879
+    },
+    {
+      "id": "TC_180",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/20.4.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/20.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6209
+    },
+    {
+      "id": "TC_181",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.1.5",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/9.7.5.1.4",
+        "SOLAS II-2/9.7.1.1",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.7.2.2",
+        "SOLAS II-2/9.7.5.1.2",
+        "SOLAS II-2/9.7.2.4",
+        "SOLAS II-2/9.7.2.1",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.5.2.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.7",
+        "SOLAS II-2/9.7.5.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.5.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 20464
+    },
+    {
+      "id": "TC_182",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2",
+        "FSS Code/17.3",
+        "FSS Code/14.2.1.2",
+        "FSS Code/14.2.1.1",
+        "FSS Code/14.2.1",
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/18.5.3",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/10.8.1.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/6.4.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10442
+    },
+    {
+      "id": "TC_183",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/1.4.4"
+      ]
+    },
+    {
+      "id": "TC_184",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.7.3.1",
+        "SOLAS II-2/19.4",
+        "SOLAS II-2/1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 15044
+    },
+    {
+      "id": "TC_185",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.1.2",
+        "SOLAS II-2/18.7",
+        "SOLAS II-2/13.3.2.1",
+        "FSS Code/13.2.1.1",
+        "SOLAS II-2/13.4.2",
+        "FSS Code/13.2.3",
+        "FSS Code/13.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/1.4",
+        "FSS Code/13.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10202
+    },
+    {
+      "id": "TC_186",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/1.4.4",
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/1.4.1",
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/22.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12102
+    },
+    {
+      "id": "TC_187",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.2.3.1.1",
+        "SOLAS II-2/1.4"
+      ]
+    },
+    {
+      "id": "TC_188",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/20.3.1.2.1",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/20.3.1.4.1",
+        "SOLAS II-2/9.7.4.1",
+        "SOLAS II-2/5.2.1.2",
+        "SOLAS II-2/8.3",
+        "SOLAS II-2/9.7.2.1",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/5.2.1.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/9.7.7"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.1.5",
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/9.7.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17096
+    },
+    {
+      "id": "TC_189",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.6.1",
+        "FSS Code/7.2.4",
+        "SOLAS II-2/20.6.1.1",
+        "SOLAS II-2/20.6.1.3",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.9.1",
+        "SOLAS II-2/10.5.6",
+        "SOLAS II-2/20.2.2.1",
+        "SOLAS II-2/19.3.9",
+        "SOLAS II-2/10.6.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/20.6.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11251
+    },
+    {
+      "id": "TC_190",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.2",
+        "SOLAS II-2/1.4"
+      ]
+    },
+    {
+      "id": "TC_191",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/19.3.6.1",
+        "SOLAS II-2/1.4"
+      ]
+    },
+    {
+      "id": "TC_192",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.4.1",
+        "SOLAS II-2/13.3.3.6",
+        "FSS Code/13.2.3",
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/13.4.1.2",
+        "SOLAS II-2/13.4.1",
+        "SOLAS II-2/9.4",
+        "SOLAS II-2/13.4.1.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/13.7.1.5",
+        "SOLAS II-2/18.4",
+        "SOLAS II-2/13.4.2.2",
+        "SOLAS II-2/13.3.2.7.1",
+        "FSS Code/13.2.5.1",
+        "SOLAS II-2/13.7.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13",
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12055
+    },
+    {
+      "id": "TC_193",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.3",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.5.5.1.2",
+        "FSS Code/15.2.2.3.2",
+        "SOLAS II-2/16.3.3",
+        "FSS Code/15.2.2.3.2.6",
+        "SOLAS II-2/4.5.5.1",
+        "SOLAS II-2/4.5.5.1.4",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/10.7.1",
+        "FSS Code/15.2.2.1",
+        "SOLAS II-2/4.5.5.1.3",
+        "SOLAS II-2/4.5.5.2.1",
+        "FSS Code/15.2.2.5",
+        "FSS Code/15.2.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/15",
+        "SOLAS II-2/1.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12348
+    },
+    {
+      "id": "TC_194",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.10.2.2",
+        "SOLAS II-2/15.2.2.6",
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/10.10.2.4",
+        "SOLAS II-2/10.10.2.5",
+        "FSS Code/3.2.1.2",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/10.10.1",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.1.2",
+        "SOLAS II-2/19.3.6",
+        "SOLAS II-2/13.3.4",
+        "SOLAS II-2/4.5.7.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/1.4"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 12732
+    },
+    {
+      "id": "TC_195",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.3.2.1",
+        "SOLAS II-2/13.5.5",
+        "SOLAS II-2/13.4.1",
+        "SOLAS II-2/13.4.2",
+        "FSS Code/13.2.1.2.2.2.1",
+        "SOLAS II-2/13.4.2.2",
+        "SOLAS II-2/13.5",
+        "SOLAS II-2/21.1",
+        "FSS Code/13.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.4.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17804
+    },
+    {
+      "id": "TC_196",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/4.5.1.3",
+        "FSS Code/14.2.3.2",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/10.5.2.2.1",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/20.6.2.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/10.7.1.3",
+        "SOLAS II-2/10.3.2",
+        "SOLAS II-2/10.7.1.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/14",
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17535
+    },
+    {
+      "id": "TC_197",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/1.4.4",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/1.4",
+        "FSS Code/9.2.1.8",
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/7.2.2",
+        "FSS Code/9.2.4.1.3",
+        "SOLAS II-2/20.2.2.1",
+        "SOLAS II-2/22.3",
+        "SOLAS II-2/9.2.2.1.1.2",
+        "FSS Code/9.2.3.3",
+        "SOLAS II-2/9.4.1.1.6"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/9",
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 14179
+    },
+    {
+      "id": "TC_198",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/19.3.3",
+        "SOLAS II-2/10.6.1.2",
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.5",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/7.6",
+        "FSS Code/9.1",
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/7.2.2",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/9.4.1.1.6",
+        "FSS Code/9.2.4.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/7.5.5.2",
+        "SOLAS II-2/1.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8427
+    },
+    {
+      "id": "TC_199",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.4.5.1"
+      ]
+    },
+    {
+      "id": "TC_200",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.2.2",
+        "SOLAS II-2/20.3.1.2.1",
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/20.4.2",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/13.5",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/20.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/20.3",
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 15051
+    },
+    {
+      "id": "TC_201",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.3",
+        "SOLAS II-2/1.4"
+      ]
+    },
+    {
+      "id": "TC_202",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/9.2.2.3",
+        "SOLAS II-2/1.4.4",
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/9.2.2.1",
+        "SOLAS II-2/9.2.2.2",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/9.2.2.1.1.2",
+        "SOLAS II-2/20.2.2",
+        "SOLAS II-2/5.3.1.3",
+        "SOLAS II-2/22.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/9.4.1.2.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 21948
+    },
+    {
+      "id": "TC_203",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3",
+        "SOLAS II-2/1.4"
+      ]
+    },
+    {
+      "id": "TC_204",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/11.6.2.2",
+        "SOLAS II-2/1.4.4",
+        "SOLAS II-2/4.5.5.1.2",
+        "SOLAS II-2/2.3",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/10.2.1.7.1",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/10.7.1.3",
+        "SOLAS II-2/10.7.1.4",
+        "SOLAS II-2/9.4.1.1.6"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/1.4.1",
+        "SOLAS II-2/2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11005
+    },
+    {
+      "id": "TC_205",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.2"
+      ]
+    },
+    {
+      "id": "TC_206",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/1.4",
+        "SOLAS II-2/9.7.4.1",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/1.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8569
+    },
+    {
+      "id": "TC_207",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.4",
+        "SOLAS II-2/4.5.1.1",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/9.6",
+        "SOLAS II-2/4.2.2.5.2",
+        "SOLAS II-2/4.2.2.5"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3.2",
+        "SOLAS II-2/4.2.2.5.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12505
+    },
+    {
+      "id": "TC_208",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.2.4.1.3",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/12.2.1",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/20.3.1.4.1",
+        "SOLAS II-2/9.7.2.2",
+        "SOLAS II-2/9.7.2.4.1.1",
+        "SOLAS II-2/9.7.2.4.1.4",
+        "SOLAS II-2/5.2.1.2.1.1",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.2.4.1.3",
+        "SOLAS II-2/9.7.1.5",
+        "SOLAS II-2/9.7.2"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 13118
+    },
+    {
+      "id": "TC_209",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.1.5",
+        "SOLAS II-2/13.4.2.1",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/23.6",
+        "SOLAS II-2/9.4.1.2",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/9.4.1.1.2",
+        "SOLAS II-2/9.2.3.3",
+        "FSS Code/6.4.2",
+        "SOLAS II-2/9.5.2.3",
+        "SOLAS II-2/20",
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.4.2",
+        "FSS Code/5.2.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9756
+    },
+    {
+      "id": "TC_210",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2",
+        "FSS Code/17.3.3",
+        "FSS Code/14.2.1",
+        "FSS Code/14.2.2.2.1",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/1.6.3",
+        "SOLAS II-2/10.8.1",
+        "FSS Code/6.4.1.2",
+        "FSS Code/6.4.1",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/10.8.1.1",
+        "FSS Code/6.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/6.3.4.2",
+        "FSS Code/6.4.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9005
+    },
+    {
+      "id": "TC_211",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/9.2.5.1",
+        "FSS Code/10.2.4.1.4",
+        "FSS Code/9.2.1.6",
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.5",
+        "SOLAS II-2/7.5.2",
+        "FSS Code/10.2.1",
+        "FSS Code/9.2.1.8",
+        "FSS Code/9.2.1.7",
+        "FSS Code/9.2.4.1",
+        "FSS Code/9.2.4.1.3",
+        "FSS Code/9.2.5.1.3",
+        "SOLAS II-2/10.6.1.1",
+        "SOLAS II-2/7.9",
+        "FSS Code/9.2.1.2",
+        "FSS Code/9.2.4.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/9.2.5.1.3",
+        "FSS Code/9.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9272
+    },
+    {
+      "id": "TC_212",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/19.3.6",
+        "SOLAS II-2/10.10.2.2",
+        "SOLAS II-2/15.2.2.6",
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/10.10.2.4",
+        "SOLAS II-2/10.10.2",
+        "FSS Code/3.2.1.3",
+        "SOLAS II-2/10.10.2.5",
+        "FSS Code/3.2.1",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.1.2",
+        "SOLAS II-2/15.2.2",
+        "SOLAS II-2/10.10.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 10475
+    },
+    {
+      "id": "TC_213",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.5",
+        "SOLAS II-2/4.2.2.3.2"
+      ]
+    },
+    {
+      "id": "TC_214",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/15",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.5.1",
+        "SOLAS II-2/9.6",
+        "SOLAS II-2/9.5.2.1",
+        "SOLAS II-2/4.2.2.3.2",
+        "FSS Code/13.3",
+        "FSS Code/9.2.5"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.6.2",
+        "SOLAS II-2/4.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13669
+    },
+    {
+      "id": "TC_215",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.4.5.4",
+        "SOLAS II-2/16.3.3.3",
+        "FSS Code/15.2.2.4.2",
+        "FSS Code/15.2.2.4.5.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.4.2.1",
+        "FSS Code/15.2.2.4.2.2",
+        "FSS Code/15.2.2.4.5.1.5",
+        "FSS Code/15.2.2.4.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11141
+    },
+    {
+      "id": "TC_216",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/14.3",
+        "SOLAS II-2/13.3.1.2",
+        "SOLAS II-2/13.5.5",
+        "SOLAS II-2/13.7.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/22.1",
+        "FSS Code/13.3",
+        "SOLAS II-2/1.2.5"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.7.3.1",
+        "FSS Code/9.2.1.2.7"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 19217
+    },
+    {
+      "id": "TC_217",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/9.2.4.1",
+        "FSS Code/9.2.4.1.3",
+        "FSS Code/9.2.4.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7135
+    },
+    {
+      "id": "TC_218",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/16.2.2.2.1.2",
+        "FSS Code/16.2.2.2.1",
+        "SOLAS II-2/4.5.3.3",
+        "SOLAS II-2/4.5.7.3.2",
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/16.2.2.2.1.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.2.1.2",
+        "FSS Code/16.2.2.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11709
+    },
+    {
+      "id": "TC_219",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/10.2.1.2.2",
+        "FSS Code/10.2.1",
+        "SOLAS II-2/7.6",
+        "FSS Code/16.2.2.2.1",
+        "SOLAS II-2/7.2",
+        "FSS Code/10.2.2.2",
+        "FSS Code/10.2.2",
+        "FSS Code/10.1",
+        "FSS Code/9.2.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/10.2.3.2.1",
+        "FSS Code/10.2.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7299
+    },
+    {
+      "id": "TC_220",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.6.1",
+        "SOLAS II-2/20.3.1.2.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/20.4.2.1",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/20.4.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.2.1",
+        "SOLAS II-2/13.5",
+        "SOLAS II-2/20.4.2.2",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/20.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/20.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10603
+    },
+    {
+      "id": "TC_221",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.1",
+        "SOLAS II-2/9.7.3.1",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/9.7.1.1",
+        "SOLAS II-2/9.7.5.1.4",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.7.5.1.2",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.7",
+        "SOLAS II-2/9.7.5.1.1",
+        "SOLAS II-2/9.7.5.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.5.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16872
+    },
+    {
+      "id": "TC_222",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.5",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/10.7.3",
+        "SOLAS II-2/19.3.6.1",
+        "SOLAS II-2/4.5.5",
+        "SOLAS II-2/19.3.6"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.3",
+        "SOLAS II-2/19.3.6.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9235
+    },
+    {
+      "id": "TC_223",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3.3",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/4.2.2.3.4",
+        "SOLAS II-2/10.2.1.4.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.6.2",
+        "SOLAS II-2/4.2.2.5.2",
+        "SOLAS II-2/4.2.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9840
+    },
+    {
+      "id": "TC_224",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/16.2.2.1",
+        "FSS Code/10.2.1",
+        "SOLAS II-2/7.5.5",
+        "FSS Code/9.2.2",
+        "SOLAS II-2/7.6",
+        "FSS Code/16.2.2.2.1",
+        "FSS Code/16.2.2.1.3",
+        "FSS Code/8.2.2.2",
+        "SOLAS II-2/7.2",
+        "FSS Code/9.2.3.2",
+        "FSS Code/10.2.2",
+        "FSS Code/16.2.2.2.1.5",
+        "FSS Code/10.1",
+        "FSS Code/9.2.1.2",
+        "FSS Code/9.2.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/10.2.1.6",
+        "FSS Code/10.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8876
+    },
+    {
+      "id": "TC_225",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.2.2.3.4.1",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.4.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.1.1.1",
+        "SOLAS II-2/9.2.2.3.4.5",
+        "SOLAS II-2/9.2.3.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9968
+    },
+    {
+      "id": "TC_226",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.2.4.2",
+        "FSS Code/12.2.2.1.1",
+        "SOLAS II-2/10.2.2.4.1.2",
+        "SOLAS II-2/10.2.2.4.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.2.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13580
+    },
+    {
+      "id": "TC_227",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/12.1",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/10.2.2.3.1",
+        "SOLAS II-2/10.2.2.3.1.1",
+        "FSS Code/12.2.2.1.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.2.4.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 16083
+    },
+    {
+      "id": "TC_228",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.2.3.1.1",
+        "SOLAS II-2/19.3.1",
+        "SOLAS II-2/10.2.1.5",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/10.7.3",
+        "SOLAS II-2/10.2.3.1.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9225
+    },
+    {
+      "id": "TC_229",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2",
+        "SOLAS II-2/4.5.5.2",
+        "FSS Code/14.2.1",
+        "FSS Code/14.2.2.2.1",
+        "SOLAS II-2/1.6.3",
+        "FSS Code/14.2.2.2.2.1.3",
+        "FSS Code/6.3.1",
+        "FSS Code/6.3.1.19",
+        "FSS Code/14.2.2.1.4",
+        "FSS Code/17.3.3",
+        "FSS Code/14.2.2.1.3",
+        "FSS Code/15.2.3.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8678
+    },
+    {
+      "id": "TC_230",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2.1",
+        "FSS Code/14.2.3.3",
+        "FSS Code/14.2.2.2",
+        "FSS Code/14.2.1",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/1.6.3",
+        "SOLAS II-2/10.8.1",
+        "SOLAS II-2/4.5.3.2",
+        "SOLAS II-2/4.5.5.1.3",
+        "FSS Code/17.3.3",
+        "FSS Code/14.2.2.1.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9582
+    },
+    {
+      "id": "TC_231",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.3.3",
+        "SOLAS II-2/20.6.2",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/10.3.2.1",
+        "SOLAS II-2/19.3.7",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/18.5.7",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/20",
+        "SOLAS II-2/10.3.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.3.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 14385
+    },
+    {
+      "id": "TC_232",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/9.2.2",
+        "SOLAS II-2/10.10.2",
+        "SOLAS II-2/14.2.2",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/10.10.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9694
+    },
+    {
+      "id": "TC_233",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/3.2.1.3",
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/10.10.2.5",
+        "FSS Code/3.2.1.2",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/10.10.1",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.2.4",
+        "SOLAS II-2/15.2.2",
+        "SOLAS II-2/13.3.4"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9782
+    },
+    {
+      "id": "TC_234",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/19.3.3",
+        "SOLAS II-2/18.7",
+        "FSS Code/9.2.4.1.2",
+        "SOLAS II-2/7.5.5",
+        "SOLAS II-2/7.6",
+        "FSS Code/8.2.2.2",
+        "FSS Code/9.2.1.7",
+        "FSS Code/9.2.3.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/7.9",
+        "SOLAS II-2/10.5.6",
+        "FSS Code/15.2.2.4.5.1",
+        "FSS Code/9.2.4.2.5"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/7.5.5.1"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 11786
+    },
+    {
+      "id": "TC_235",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/19.3.3",
+        "SOLAS II-2/18.7",
+        "FSS Code/9.2.4.1.2",
+        "SOLAS II-2/7.5.5",
+        "FSS Code/9.2.2",
+        "SOLAS II-2/7.6",
+        "FSS Code/8.2.2.2",
+        "FSS Code/9.2.1.7",
+        "FSS Code/9.2.3.1",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.5.6",
+        "FSS Code/9.2.5",
+        "FSS Code/15.2.2.4.5.1",
+        "FSS Code/9.2.4.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/7.5.5.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11267
+    },
+    {
+      "id": "TC_236",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.4.2.2",
+        "FSS Code/13.3",
+        "SOLAS II-2/13.4.2",
+        "SOLAS II-2/13.4.1.3"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/13.4.2.1.1"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 8450
+    },
+    {
+      "id": "TC_237",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/9.7.4.1",
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/9.7.2.1",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/22.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/5.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12770
+    },
+    {
+      "id": "TC_238",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/5.2.1.3"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 12165
+    },
+    {
+      "id": "TC_239",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/4.5.5.1.2",
+        "FSS Code/16.2.2.3",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/4.5.10.1",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/7.6",
+        "FSS Code/16.2.2.3.3",
+        "SOLAS II-2/4.5.10.1.3",
+        "SOLAS II-2/4.5.5.1.1",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/16.3.2.4",
+        "SOLAS II-2/4.5.3.1",
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/15.2.2.4.5.1"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.5.7.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12126
+    },
+    {
+      "id": "TC_240",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.2",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/9.4.1.1.2",
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.4.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6342
+    },
+    {
+      "id": "TC_241",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.2.2.3.2.4",
+        "SOLAS II-2/4.2.1.3.1",
+        "SOLAS II-2/4.2.2.3.4",
+        "SOLAS II-2/4.2.3.2",
+        "SOLAS II-2/4.2.2.3.2"
+      ],
+      "expected_compliance": "合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3.4",
+        "SOLAS II-2/4.2.2.3.2"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 11432
+    },
+    {
+      "id": "TC_242",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.1",
+        "SOLAS II-2/9.7.2.4",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.7.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.2.4.1.3",
+        "SOLAS II-2/9.7.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10678
+    },
+    {
+      "id": "TC_243",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.1.6.1"
+      ]
+    },
+    {
+      "id": "TC_244",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.1.5",
+        "SOLAS II-2/9.5.1",
+        "SOLAS II-2/9.4.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11006
+    },
+    {
+      "id": "TC_245",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.2.2",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/13.3.2.5",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/10.7.1.2",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/9.7.4.1",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/4.5.4.2",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/9.4.1.1.6"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.1.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8517
+    },
+    {
+      "id": "TC_246",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.4.3",
+        "SOLAS II-2/15.2.2.3",
+        "FSS Code/5.2.2.4.3",
+        "SOLAS II-2/15.2.1",
+        "SOLAS II-2/15.3.2",
+        "SOLAS II-2/16.2.2",
+        "SOLAS II-2/4.5.8",
+        "FSS Code/8.2.1.2",
+        "SOLAS II-2/15.2.1.3",
+        "FSS Code/9.2.3.3",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/10.2.3.2",
+        "SOLAS II-2/15.2.2",
+        "FSS Code/16.2.1",
+        "SOLAS II-2/15.2.2.1",
+        "SOLAS II-2/20.3.1.2.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/15.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10558
+    },
+    {
+      "id": "TC_247",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/16.3.3",
+        "FSS Code/15.2.2.2.4",
+        "FSS Code/15.2.2.1.5",
+        "SOLAS II-2/16.3.3.3",
+        "FSS Code/15.2.2.4.5.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.4.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12986
+    },
+    {
+      "id": "TC_248",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.5.3",
+        "SOLAS II-2/4.2.2.5",
+        "SOLAS II-2/4.2.2.5.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11588
+    },
+    {
+      "id": "TC_249",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ]
+    },
+    {
+      "id": "TC_250",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.4.2"
+      ]
+    },
+    {
+      "id": "TC_251",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.7.1",
+        "SOLAS II-2/9.7.4.4",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/9.7.2.6",
+        "SOLAS II-2/4.5.2",
+        "SOLAS II-2/9.7.2.4",
+        "SOLAS II-2/9.7.2.1",
+        "SOLAS II-2/9",
+        "SOLAS II-2/9.7.5.2",
+        "SOLAS II-2/20.3.1.4.2",
+        "SOLAS II-2/9.4.1.1.9",
+        "SOLAS II-2/9.7.5.1",
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/9.7.7",
+        "SOLAS II-2/9.7.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.2.4.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12809
+    },
+    {
+      "id": "TC_252",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/9.2.4.1",
+        "FSS Code/9.2.1.6",
+        "FSS Code/9.2.4.1.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.1.2.1",
+        "FSS Code/9.2.1.6"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 17931
+    },
+    {
+      "id": "TC_253",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.1.5",
+        "SOLAS II-2/9.5.1",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7420
+    },
+    {
+      "id": "TC_254",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/20.3.1.4",
+        "SOLAS II-2/20.3.1.4.1",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/5.2.1.1",
+        "SOLAS II-2/5.2.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.7.1.5",
+        "SOLAS II-2/5.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7336
+    },
+    {
+      "id": "TC_255",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/15.2.2.3",
+        "SOLAS II-2/15.2.1",
+        "SOLAS II-2/15.2.1.3",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/16.2",
+        "SOLAS II-2/15.2.2",
+        "SOLAS II-2/10.3.2",
+        "SOLAS II-2/15.2.2.1",
+        "SOLAS II-2/15.2.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/15.2.1"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 16083
+    },
+    {
+      "id": "TC_256",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.3",
+        "SOLAS II-2/4.5.5.2",
+        "FSS Code/15.2.2.1.4",
+        "FSS Code/15.2.2.4.5.1.1",
+        "FSS Code/15.2.2.4.2",
+        "FSS Code/15.2.2.1.1",
+        "SOLAS II-2/4.5.5.1.1",
+        "FSS Code/15.2.2.2.4",
+        "FSS Code/15.2.2.1.5",
+        "FSS Code/15.2.2.4.5.4",
+        "FSS Code/15.2.3.1",
+        "SOLAS II-2/16.3.3.3",
+        "SOLAS II-2/4.5.7.3.1",
+        "FSS Code/15.2.2.4.5.1",
+        "FSS Code/15.2.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.4.2.2",
+        "FSS Code/15.2.2.4.5.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11794
+    },
+    {
+      "id": "TC_257",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.2.2.3.4",
+        "SOLAS II-2/4.2.1.3.1",
+        "SOLAS II-2/4.2.2.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10971
+    },
+    {
+      "id": "TC_258",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/7.5.2",
+        "FSS Code/9.2.4.2.1",
+        "FSS Code/9.2.1.7",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/5.3.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 9880
+    },
+    {
+      "id": "TC_259",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/18.7",
+        "SOLAS II-2/4.4.2",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/11.6.2",
+        "SOLAS II-2/4.2.2.3.5.1",
+        "SOLAS II-2/19.3.5",
+        "SOLAS II-2/4.2.3",
+        "SOLAS II-2/4.2.2.3.4",
+        "FSS Code/14.2.1.3",
+        "SOLAS II-2/4.2.2.3.2",
+        "SOLAS II-2/10.7.1.4",
+        "FSS Code/5.2.2.1",
+        "FSS Code/6.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.4.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 13226
+    },
+    {
+      "id": "TC_260",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.2"
+      ]
+    },
+    {
+      "id": "TC_261",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/16.2.2.2.1.2",
+        "SOLAS II-2/4.5.5.2",
+        "FSS Code/16.2.2.1",
+        "FSS Code/16.2.2.2.1.4",
+        "FSS Code/16.2.2.1.3",
+        "FSS Code/16.2.2.3",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/1.6.6",
+        "FSS Code/16.2.2.2.1",
+        "SOLAS II-2/4.5.7.3",
+        "SOLAS II-2/4.5.7.3.2",
+        "FSS Code/16.2.1",
+        "SOLAS II-2/4.5.7.2",
+        "FSS Code/10.1",
+        "SOLAS II-2/4.5.7.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.2.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9795
+    },
+    {
+      "id": "TC_262",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3.2"
+      ]
+    },
+    {
+      "id": "TC_263",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.2",
+        "FSS Code/13.2.1.1",
+        "SOLAS II-2/13.7.3",
+        "SOLAS II-2/13.4.2",
+        "FSS Code/13.3",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/22.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/1.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.7.3.1"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 7141
+    },
+    {
+      "id": "TC_264",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.3.5",
+        "SOLAS II-2/4.5.5.2",
+        "SOLAS II-2/7.6",
+        "SOLAS II-2/10.2.1.4",
+        "FSS Code/15.2.2.3.2.6",
+        "SOLAS II-2/10.2.1.4.4",
+        "SOLAS II-2/4.2.2.5.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9950
+    },
+    {
+      "id": "TC_265",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.3"
+      ]
+    },
+    {
+      "id": "TC_266",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.2.2.3.4.5"
+      ]
+    },
+    {
+      "id": "TC_267",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.5.2"
+      ]
+    },
+    {
+      "id": "TC_268",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.2.5"
+      ]
+    },
+    {
+      "id": "TC_269",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.1.2.1"
+      ]
+    },
+    {
+      "id": "TC_270",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/14.2.2",
+        "FSS Code/17.3.3",
+        "SOLAS II-2/10.8.1.3",
+        "SOLAS II-2/10.5.2.2",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/1.6.6",
+        "SOLAS II-2/1.6.3",
+        "SOLAS II-2/10.5.1.2.2",
+        "SOLAS II-2/10.8.1",
+        "FSS Code/12.2.6",
+        "SOLAS II-2/10.7.1.1",
+        "SOLAS II-2/10.5.3.2.1",
+        "SOLAS II-2/10.8.1.1",
+        "FSS Code/4.3.2.2",
+        "FSS Code/6.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.3.4.2",
+        "FSS Code/6.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9765
+    },
+    {
+      "id": "TC_271",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/4.5.5.2",
+        "FSS Code/9.2.2.5",
+        "FSS Code/3.2.1.1",
+        "SOLAS II-2/10.2.3.2.1",
+        "FSS Code/9.2.2",
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.10.2",
+        "FSS Code/9.2.3.3",
+        "SOLAS II-2/10.7.3.2",
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/7.8.1",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/20.3.2",
+        "SOLAS II-2/18.5.6",
+        "SOLAS II-2/10.10.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 17060
+    },
+    {
+      "id": "TC_272",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/14.2.1",
+        "SOLAS II-2/10.5.2.2.2",
+        "SOLAS II-2/10.8.1",
+        "FSS Code/6.4.1.2",
+        "FSS Code/17.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/6.4.1.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 5289
+    },
+    {
+      "id": "TC_273",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/19.3.6",
+        "SOLAS II-2/10.10.2.2",
+        "SOLAS II-2/15.2.2.6",
+        "SOLAS II-2/10.10.1.2",
+        "FSS Code/3.2.1.2.1",
+        "SOLAS II-2/10.10.2.5",
+        "FSS Code/3.2.1.2",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.10.2.6",
+        "SOLAS II-2/10.10.1",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.2.4",
+        "SOLAS II-2/15.2.2",
+        "FSS Code/3.2.1.2.2",
+        "SOLAS II-2/13.3.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 9876
+    },
+    {
+      "id": "TC_274",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.1.2.7"
+      ]
+    },
+    {
+      "id": "TC_275",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.1.2",
+        "SOLAS II-2/9.4.1.1",
+        "SOLAS II-2/9.4.1.1.2",
+        "SOLAS II-2/9.4.1.2.1",
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9.4.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8233
+    },
+    {
+      "id": "TC_276",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.2.3.2"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 4871
+    },
+    {
+      "id": "TC_277",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.1.2",
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/20.3.2.2",
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/9.2.4.2.5",
+        "FSS Code/9.2.4.2.1",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/5.3.4",
+        "SOLAS II-2/9.4.2.3",
+        "SOLAS II-2/9.6.6",
+        "SOLAS II-2/22.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/5.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 12900
+    },
+    {
+      "id": "TC_278",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ]
+    },
+    {
+      "id": "TC_279",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ]
+    },
+    {
+      "id": "TC_280",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.3.3.1"
+      ]
+    },
+    {
+      "id": "TC_281",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/9.2.2",
+        "SOLAS II-2/10.10.2",
+        "SOLAS II-2/10.10.4",
+        "FSS Code/9.2.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 7830
+    },
+    {
+      "id": "TC_282",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.2",
+        "FSS Code/9.2.1",
+        "FSS Code/5.2.2.4.3",
+        "FSS Code/16.2.1",
+        "SOLAS II-2/10.2.2.4.2",
+        "SOLAS II-2/10.2.2.4.1.2",
+        "FSS Code/6.4.2",
+        "FSS Code/14.1",
+        "SOLAS II-2/18.2",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/10.2.2.4.1",
+        "FSS Code/10.2.2",
+        "SOLAS II-2/4.5.7.2",
+        "FSS Code/12.2.2.1.1",
+        "SOLAS II-2/10.2.2.4.1.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10641
+    },
+    {
+      "id": "TC_283",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "SOLAS II-2/19.3.3",
+        "SOLAS II-2/7.5.5",
+        "SOLAS II-2/7.6",
+        "FSS Code/9.2.1.7",
+        "SOLAS II-2/7.2",
+        "SOLAS II-2/7.2.2",
+        "SOLAS II-2/10.7.1",
+        "SOLAS II-2/10.5.6",
+        "FSS Code/9.2.1.2",
+        "SOLAS II-2/10.7.1.3",
+        "FSS Code/9.2.4.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/7.5.5.2"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 10222
+    },
+    {
+      "id": "TC_284",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.4.1.6",
+        "SOLAS II-2/13.4.1",
+        "SOLAS II-2/13.4.2",
+        "FSS Code/13.2.1.2.2.2.1",
+        "SOLAS II-2/13.4.2.2",
+        "FSS Code/13.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.4.2.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10730
+    },
+    {
+      "id": "TC_285",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/5.2.2.4.3",
+        "SOLAS II-2/9.7.4",
+        "SOLAS II-2/5.2.1.3",
+        "SOLAS II-2/13.3.2.5.2",
+        "SOLAS II-2/9.7.4.1",
+        "SOLAS II-2/9.4.1.2.4",
+        "SOLAS II-2/9.7.2",
+        "FSS Code/9.2.4.1",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/21.1",
+        "FSS Code/6.3.1",
+        "SOLAS II-2/20.3.1.2",
+        "SOLAS II-2/5.2.1",
+        "SOLAS II-2/22.1",
+        "FSS Code/15.2.3.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/5.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8644
+    },
+    {
+      "id": "TC_286",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.2.4",
+        "FSS Code/15.2.2.1.5",
+        "SOLAS II-2/16.3.3.3",
+        "FSS Code/15.2.2.4.5.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/15.2.2.4.2.2"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 11806
+    },
+    {
+      "id": "TC_287",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/16.2.2.2.1.2"
+      ]
+    },
+    {
+      "id": "TC_288",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "FSS Code/15.2.2.3.2.10",
+        "SOLAS II-2/4.2.2.3",
+        "SOLAS II-2/4.5.3.2.2",
+        "SOLAS II-2/10.2.1.4",
+        "SOLAS II-2/4.2.2.5.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/4.2.2.5.5"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10490
+    },
+    {
+      "id": "TC_289",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.7.3.1",
+        "SOLAS II-2/13.7.3",
+        "FSS Code/13.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/13.7.3.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6986
+    },
+    {
+      "id": "TC_290",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ]
+    },
+    {
+      "id": "TC_291",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.4.2.1",
+        "SOLAS II-2/9.4.1.1.2",
+        "SOLAS II-2/9.4.2",
+        "SOLAS II-2/9.4.1.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 8585
+    },
+    {
+      "id": "TC_292",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.2.3.1",
+        "SOLAS II-2/10.2.3.1.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.3.1.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6532
+    },
+    {
+      "id": "TC_293",
+      "predicted_compliance": "不合规",
+      "accuracy_correct": true,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/14.2.2.1.3"
+      ]
+    },
+    {
+      "id": "TC_294",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.3.3.1"
+      ]
+    },
+    {
+      "id": "TC_295",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.6.1.2",
+        "SOLAS II-2/7.5.3",
+        "SOLAS II-2/7.4.2",
+        "SOLAS II-2/7.5.2",
+        "SOLAS II-2/9.2.4.2.5",
+        "FSS Code/9.2.4.2.1",
+        "FSS Code/9.2.5.2",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/21.1",
+        "SOLAS II-2/20.5",
+        "SOLAS II-2/9.4.2.3",
+        "SOLAS II-2/9.6.6",
+        "SOLAS II-2/22.1",
+        "SOLAS II-2/9.4.1.1.6",
+        "SOLAS II-2/5.3.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/9.2.4.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10244
+    },
+    {
+      "id": "TC_296",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/10.10.2.2",
+        "FSS Code/3.2.1.3",
+        "FSS Code/3.2.1.2.1",
+        "FSS Code/3.2.1.2",
+        "SOLAS II-2/10.10.2.1",
+        "SOLAS II-2/10.10.1",
+        "SOLAS II-2/19.3.6.2",
+        "SOLAS II-2/10.10.1.2",
+        "SOLAS II-2/15.2.2",
+        "FSS Code/3.2.1.2.2",
+        "SOLAS II-2/13.3.4"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "FSS Code/3.2.1.2.1"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 7946
+    },
+    {
+      "id": "TC_297",
+      "predicted_compliance": "合规",
+      "predicted_refs": [
+        "FSS Code/9.2.2",
+        "SOLAS II-2/10.10.4",
+        "FSS Code/9.2.2.5"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.10.4"
+      ],
+      "accuracy_correct": false,
+      "llm_time_ms": 15300
+    },
+    {
+      "id": "TC_298",
+      "predicted_compliance": "合规",
+      "accuracy_correct": false,
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.8.1.1"
+      ]
+    },
+    {
+      "id": "TC_299",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/13.2",
+        "FSS Code/9.2.1",
+        "FSS Code/5.2.2.4.3",
+        "FSS Code/16.2.1",
+        "SOLAS II-2/10.2.2.4.2",
+        "SOLAS II-2/10.2.2.4.1.2",
+        "FSS Code/6.4.2",
+        "FSS Code/14.1",
+        "SOLAS II-2/18.2",
+        "SOLAS II-2/10.7.3.2.3",
+        "SOLAS II-2/10.2.2.4.1",
+        "FSS Code/10.2.2",
+        "SOLAS II-2/4.5.7.2",
+        "FSS Code/12.2.2.1.1",
+        "SOLAS II-2/10.2.2.4.1.1"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/10.2.1.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 10214
+    },
+    {
+      "id": "TC_300",
+      "predicted_compliance": "不合规",
+      "predicted_refs": [
+        "SOLAS II-2/9.5.1",
+        "SOLAS II-2/5.2.2",
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "expected_compliance": "不合规",
+      "expected_refs": [
+        "SOLAS II-2/9.5.2.3"
+      ],
+      "accuracy_correct": true,
+      "llm_time_ms": 6419
+    }
+  ]
+}
