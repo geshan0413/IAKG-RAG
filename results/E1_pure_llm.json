@@ -1,6 +1,6 @@
 {
   "system": "E1",
-  "test_set": "v4",
+  "test_set": "test_set.json",
   "summary": {
     "total": 300,
     "correct": 224,

@@ -27,7 +27,7 @@ IAKG-RAG/
 │   ├── build_kg_v3.py                 # Knowledge graph construction from CSV
 │   └── baselines.py                   # Baseline retrieval methods
 ├── data/
-│   ├── test_set_v4.json               # 300-case test set (annotated)
+│   ├── test_set.json               # 300-case test set (annotated)
 │   ├── prompt_template.txt            # Structured compliance judgment prompt
 │   └── kg/                            # Knowledge graph CSV files
 │       ├── nodes_Clause.csv           # 1,461 clause nodes
@@ -151,7 +151,7 @@ Each result JSON file follows this structure, preserving all fields for full rep
 ```json
 {
   "system": "E5",
-  "test_set": "test_set_v4.json",
+  "test_set": "test_set.json",
   "summary": {
     "total": 300,
     "correct": 281,
