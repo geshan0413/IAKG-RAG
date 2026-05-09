@@ -146,7 +146,7 @@ python scripts/run_cross_model.py
 
 ## Result Format
 
-Each result JSON file follows this structure:
+Each result JSON file follows this structure, preserving all fields for full reproducibility:
 
 ```json
 {
@@ -160,26 +160,38 @@ Each result JSON file follows this structure:
   "details": [
     {
       "id": "TC_001",
-      "question": "...",
-      "full_answer": "...",
+      "question": "一艘2018年建造的客船...",
+      "full_answer": "### 第一步：相关条款筛选...",
       "predicted_compliance": "不合规",
       "predicted_refs": ["SOLAS II-2/9.2.5.1.1", ...],
       "retrieved_clauses": [
         {
           "clause_id": "SOLAS II-2/9.2.5",
           "title": "...",
-          "content": "...",
-          "final_score": 1.07
+          "content": "条款全文...",
+          "graph_score": 1.0,
+          "vector_score": 0.646,
+          "final_score": 1.07,
+          "cross_hit": true
         }
       ],
+      "retrieved_contexts": ["条款1全文...", "条款2全文..."],
       "expected_compliance": "不合规",
       "expected_refs": ["FSS Code/9.2.5.1.5", ...],
+      "reference": "不合规，依据：...",
+      "reference_contexts": ["GT条款全文..."],
       "accuracy_correct": true,
+      "llm_time_ms": 2100,
       "intent": "negative"
     }
   ]
 }
 ```
+
+**Key fields for reproducibility:**
+- `question` / `full_answer`: Complete input/output for each case
+- `retrieved_clauses` / `retrieved_contexts`: Full retrieval results with scores
+- `reference` / `reference_contexts`: Ground truth clauses for evaluation
 
 ## Citation
 
