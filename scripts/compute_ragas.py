@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-RAGAS 指标计算 — MiMo-V2.5-Pro 作为 judge
-先跑 AnswerRelevancy + ContextPrecision + ContextRecall（较快）
-Faithfulness 后续单独跑
-"""
+
 import json, os, sys, time
 from pathlib import Path
 
