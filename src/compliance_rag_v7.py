@@ -1,7 +1,6 @@
 """
-IAKG-RAG v7 — 与论文公式严格对齐的融合排序版本
+IAKG-RAG v7 
 
-改动说明（对照 v6）：
 1. 图谱分支按关系类型差异化赋权（论文 §2.2.2）：
    - equipment+space 联合命中  → 权重 2.0
    - equipment / space 单一命中 → 权重 1.0
@@ -14,7 +13,6 @@ IAKG-RAG v7 — 与论文公式严格对齐的融合排序版本
 4. 安全网补充得分 ×0.3 衰减（论文 §2.2.2）
 5. 保留 IRIR 机制和 HARD_CLAUSE_KEYWORDS 逻辑
 
-⚠️ 新文件，不覆盖 compliance_rag_v6.py
 """
 import json
 import os
@@ -57,7 +55,7 @@ RELATION_TYPE_WEIGHTS = {
 
 
 # ════════════════════════════════════════════════════════════
-# 第一层：IRIR 意图识别模块（同 v6）
+# 第一层：IRIR 意图识别模块
 # ════════════════════════════════════════════════════════════
 
 NEGATIVE_PATTERNS = [
@@ -255,12 +253,7 @@ def reformulate_queries(intent_result: dict) -> list:
     return unique
 
 
-# ════════════════════════════════════════════════════════════
-# 主系统：IAKG-RAG v7（论文公式对齐版）
-# ════════════════════════════════════════════════════════════
-
 class ComplianceRAG_V7:
-    """IAKG-RAG v7 — 融合排序与论文公式严格对齐"""
 
     def __init__(self):
         print("初始化 IAKG-RAG v7 (论文公式对齐版) ...")
