@@ -2,8 +2,6 @@
 """
 KG-RAG v6 跨模型对比实验
 基于 compliance_rag_v6.py 的完整 IRIR 框架，仅替换 LLM
-模型：GLM-5 / Kimi-K2.5（AutoDL API）
-MiMo 已有结果，不再重复跑
 """
 import json, sys, os, time
 from pathlib import Path
