@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 消融实验 — 3组配置
-A1: 去掉 Prompt（无推理引导，只拼条款）
-A2: 去掉 IRIR（= E6，已完成）
-A3: 去掉知识图谱（只用向量检索）
+A1: 去掉 Prompt
+A2: 去掉 IRIR
+A3: 去掉知识图谱
 """
 import json, os, sys, time, re
 from pathlib import Path
