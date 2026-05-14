@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-消融实验 C：去除 IRIR 机制（安全网 + 困难条款查找）
+消融实验 C：去除 IRIR 机制
 对比完整版 KG-RAG vs 去掉负向意图处理后的表现
 """
 import json, sys, os, time, re
